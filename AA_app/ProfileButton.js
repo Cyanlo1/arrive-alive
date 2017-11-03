@@ -5,17 +5,25 @@ const React = require('react');
 const {
   Image,
   StyleSheet,
+  TouchableOpacity,
 } = require('react-native');
 
 
+
 class ProfileButton extends React.Component {
+  _onPressButton() {
+   
+  }
   render() {
     return (
-      <Image
+      <TouchableOpacity onPress={this._onPressButton}>
+     
+     <Image
         source={require('./assets/arrive-alive.jpg')}
       //  style={styles.profilePic}
       style={{width: 200, height: 200, borderRadius: 30}}
       />
+      </TouchableOpacity>
     );
   }
 }
