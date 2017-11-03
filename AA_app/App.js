@@ -1,8 +1,4 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
+
 
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
@@ -15,7 +11,10 @@ export default class App extends React.Component {
         <ProfileButton/>
         <Text style={{fontSize: 30, fontStyle: "italic"}} >Arrive</Text>
         <Text style={{fontSize: 30, fontStyle: "italic"}}>Alive</Text>
+        <Text style={{fontSize: 30, fontStyle: "italic"}}>Rexxar</Text>
+        
       </View>
+      
     );
   }
 }
